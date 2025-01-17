@@ -1,4 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react";
+import Center from "../Center/Center";
 import Button from "./Button";
 
 export default {
@@ -7,6 +8,7 @@ export default {
   args: {
     children: "Button",
   },
+  decorators: [(story) => <Center>{story()}</Center>],
 } as Meta<typeof Button>;
 
 export const Primary = () => <Button variant="primary">Primary</Button>;
