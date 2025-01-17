@@ -1,0 +1,16 @@
+.input {
+  border: green 2px solid;
+  background-color: blue;
+}
+
+.small {
+  width: 100px;
+}
+
+.large {
+  width: 400px;
+}
+
+.default {
+  width: 200px;
+}
